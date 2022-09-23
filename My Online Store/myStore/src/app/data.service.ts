@@ -11,6 +11,6 @@ export class DataService {
   ) { }
 
   getProducts() {
-    return this.http.get('https://reqres.in/api/users')
+    return this.http.get('https://fakestoreapi.com/products/')
   }
 }
