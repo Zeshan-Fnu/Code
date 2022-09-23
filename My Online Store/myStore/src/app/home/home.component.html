@@ -1,8 +1,13 @@
-<h1>Users</h1>
+<h1>Products</h1>
 
 <ul *ngIf="users">
-  <li *ngFor="let user of users.data">
-    <img [src]="user.avatar">
-    <p>{{ user.first_name }} {{ user.last_name }}</p>
+  <li *ngFor="let user of users">
+    <img [src]="user.image">
+    <p>{{ user.title }} {{ user.price }}</p>
   </li>
 </ul>
+
+<!-- <div class="field-checkbox">
+    <p-checkbox (ngModel)]="checkBoxValue" inputId="binary"></p-checkbox>
+    <label>check here.</label>
+</div> -->

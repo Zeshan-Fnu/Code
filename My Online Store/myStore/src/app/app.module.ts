@@ -11,6 +11,8 @@ import { ContactComponent } from './contact/contact.component';
 //my imports
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule }    from '@angular/forms';
+import { CheckboxModule } from 'primeng/checkbox';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    CheckboxModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
